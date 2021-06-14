@@ -53,7 +53,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 		obj.fillRect(playerX, playerY, 50, 25);
 
 		drawShot(obj);
-		map.draw((Graphics2D) obj);
+		//map.draw((Graphics2D) obj);
 
 		Toolkit.getDefaultToolkit().sync();
 	}
